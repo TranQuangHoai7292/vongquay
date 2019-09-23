@@ -1,0 +1,76 @@
+body{position:relative;background:url(./upload/bg.jpg);background-size:100% 100%}
+p,li,a,h4,input,button,span{font-family:Averta,san-serif;font-size:16px;font-weight:300;line-height:1.4;color:#fff;margin-bottom:10px}
+.modal input{color:#666}
+.modal p{color:#666;margin-bottom:15px}
+.modal h4{color:#666;font-weight:700;font-size:25px}
+.close{font-size:36px;margin-bottom:0;color:#666;opacity:1}
+.modal .btn{width:100%;background-image:linear-gradient(to right,#08308b,#072054)}
+.vong-quay-box{text-align:center;background:transparent}
+.overlay-img{position:absolute;height:184px;width:auto;z-index:0}
+.overlay-img-1{left:0;top:0}
+.overlay-img-2{right:0;top:0}
+.overlay-img-3{left:0;bottom:0}
+.overlay-img-4{right:0;bottom:0}
+.logo-row .logo-1{margin-top:70px;width:120px}
+.logo-row .logo-2{height:222px;margin-top:14px;margin-bottom:20px}
+.logo-row .logo-3{margin-top:70px;width:120px}
+.vong-quay{position:relative;overflow:hidden}
+.vong-quay-muiten{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:175px}
+.vong-quay-quay{width:30%;margin-top:15px;cursor:pointer;z-index:99;transition:transform .2s}
+.vong-quay-quay.inactive{opacity:.5;cursor:auto}
+.vong-quay-quay:hover{transform:scale(1.07)}
+.vong-quay-quay.inactive:hover{transform:none}
+.luatchoi{text-align:left;position:relative}
+.luatchoi img{height:62px;margin-left:15px;margin-bottom:-15px}
+.luatchoi p,.luatchoi .giai-thuong-box{background:rgba(0,0,0,0.1);padding:20px 24px;text-align:justify;border-radius:10px;color:#fff}
+.luatchoi .giai-thuong-box ul{margin-bottom:0;padding-left:22px}
+.luatchoi .giai-thuong-box ul li{margin:0}
+.giaithuong img+img{position:absolute;right:0;margin-left:0;height:33%;top:-15px}
+.giaithuong+p{color:#fff;text-transform:uppercase;font-weight:700;margin-top:13px;margin-bottom:17px}
+.giaithuong+p span{margin-left:9px;font-size:26px;color:#FE0000;position:relative;text-transform:none;font-weight:700}
+.giaithuong+p span:after{content:" ";background:radial-gradient(rgba(255,255,255,0.82),rgba(255,255,255,0),rgba(0,0,255,0));width:200%;height:200%;left:-50%;top:-50%;z-index:-1;position:absolute}
+.giaithuong+p+p{margin-bottom:4px}
+.giaithuong+p+p img{width:63%;cursor:pointer;transition:transform .2s}
+.giaithuong+p+p img:hover{transform:scale(1.07)}
+.giaithuong+p+p+p{margin-bottom:25px;text-transform:uppercase;font-weight:700}
+.footer{margin-bottom:30px}
+.footer .col-md-12 .footer-center{width:fit-content;padding-left:150px;position:relative;margin:auto}
+.footer img{position:absolute;left:0;height:100%}
+.footer img+p{margin-bottom:0;text-align:left;font-weight:700;text-transform:uppercase;line-height:1.2}
+.footer img+p+p{margin-bottom:0;text-align:left;line-height:1.2}
+.footer img+p+p+p{margin-bottom:0;text-align:left;line-height:1.2}
+.logo-row .col-sm-3{text-align:right}
+.logo-row .col-sm-6+.col-sm-3{text-align:left}
+.trung-giai-box{padding:40px 20px}
+.trung-giai-box p{font-size:25px;font-weight:700;margin-bottom:0;color:#cd1d5e}
+.trung-giai-box p.trunggiai{color:#fff;padding:20px;font-size:26px;background:rgba(0,0,0,0.18);margin:20px 0;border-radius:20px}
+.trung-giai-box p.trunggiai+p{font-size:17px}
+#modalTrung .modal-content{background-image:url(./upload/bg.jpg);background-size:cover;background-position:top;position:relative}
+#modalTrung .close{position:absolute;right:16px;z-index:9999}
+#modalTrung .modal-content:before{content:" ";position:absolute;top:0;left:0;width:100%;height:100%;z-index:0;background:rgba(255,255,255,0.24)}
+img{max-width:100%}
+@media only screen and (max-width:1024px) {
+p,li,a{font-size:14px}
+}
+@media only screen and (max-width:768px) {
+.logo-row{margin-top:22px;margin-bottom:20px}
+.vong-quay-muiten{width:35%}
+.giaithuong img+img{width:26%;height:auto}
+.giaithuong+p+p img{width:40%}
+.overlay-img-1,.overlay-img-2{height:119px}
+.overlay-img-3,.overlay-img-4{height:78px}
+}
+@media only screen and (max-width:480px) {
+.overlay-img-1,.overlay-img-2{height:62px}
+.logo-row{margin-top:0;margin-bottom:29px}
+.giaithuong+p+p img{width:68%}
+.footer img{display:none}
+.footer .col-md-12 .footer-center{padding:0}
+.footer .col-md-12 .footer-center p{text-align:center}
+body{background-size:cover;background-position:center}
+.logo-row .logo-1{margin:20px 0 0}
+.logo-row .logo-3{margin:0}
+.logo-row .logo-2{width:100%;height:auto}
+.giaithuong img+img{display:none}
+}
+.animated{opacity:1;visibility:visible}
